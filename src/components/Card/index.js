@@ -6,7 +6,7 @@ export default function Card(props) {
 
     return (
         <div className='Card col-3'>
-            <CardBody/>
+            <CardBody card={props.card}/>
         </div>
     )
 }
