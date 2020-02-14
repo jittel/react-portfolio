@@ -1,18 +1,18 @@
 import React from 'react';
+import './style.css'
 
 export default function About() {
     return (
         <div>
             <div className="row">
-                <div className="col-md-1"></div>
+                <div className="col-md-2"></div>
 
-                <div className="col-md-8">
+                <div className="col-md-8 thing">
                     <div className="row">
                         <div className="col-md-12">
-                            <h1 className="text-center about-me">
-                                About Me
-            </h1>
+                            <h1 className="text-center about-me">About Me</h1>
                         </div>
+                        <img src="https://ca.slack-edge.com/TQ1KWR5HU-UQKNHH7QE-5caa6237aac7-512" alt="me" id="bio-image"></img>
                     </div>
 
                     <div className="row">
@@ -32,7 +32,7 @@ export default function About() {
                     </div>
                 </div>
 
-                <div className="col-md-3 hidestuff"></div>
+                <div className="col-md-2"></div>
             </div>
         </div>
     )

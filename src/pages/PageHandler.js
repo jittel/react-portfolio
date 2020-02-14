@@ -22,7 +22,7 @@ class PageHandler extends Component {
 
     render() {
         return (
-            <div className="bg">
+            <div>
                 <div className="container-fluid">
                     <NavBar
                         currentPage={this.state.currentPage}
