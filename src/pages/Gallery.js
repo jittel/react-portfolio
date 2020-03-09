@@ -13,21 +13,24 @@ export default function Gallery() {
             title: 'Trade Jack',
             body: 'a reverse bidding application for work',
             link: 'https://trade-jack.herokuapp.com',
-            image: tj
+            image: tj,
+            button: 'Click Me!'
         },
         {
             id: 2,
             title: 'Vivere',
             body: 'plan your night on food and drink based on your current location',
             link: 'https://gregreneris.github.io/Project1/',
-            image: viv
+            image: viv,
+            button: 'Click Me!'
         },
         {
             id: 3,
             title: 'Weather App',
             body: 'gives you a one day and five day forecast',
             link: 'https://jittel.github.io/weather-app/',
-            image: weather
+            image: weather,
+            button: 'Click Me!'
         }
     ]);
 
