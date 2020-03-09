@@ -3,7 +3,7 @@ import './style.css'
 
 export default function About() {
     return (
-        <div>
+        <div class="row">
             <div className="row">
                 <div className="col-md-2"></div>
 
