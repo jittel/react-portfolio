@@ -28,7 +28,6 @@ class PageHandler extends Component {
                         currentPage={this.state.currentPage}
                         handlePageChange={this.handlePageChange}
                     />
-
                     {this.renderPage()}
                 </div>
             </div>
