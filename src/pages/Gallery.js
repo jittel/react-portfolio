@@ -3,6 +3,7 @@ import Card from '../components/Card'
 import tj from '../Pictures/trade-jack.png'
 import viv from '../Pictures/vivere.png'
 import weather from '../Pictures/weather-app.png'
+import mosh from '../Pictures/mosh.png'
 import './style.css'
 
 export default function Gallery() {
@@ -28,6 +29,13 @@ export default function Gallery() {
             body: 'gives you a one day and five day forecast',
             link: 'https://jittel.github.io/weather-app/',
             image: weather
+        },
+        {
+            id: 4,
+            title: 'Mosh',
+            body: 'Local musician social networking app',
+            link: 'https://mosh-app.herokuapp.com/',
+            image: mosh
         }
     ]);
 
@@ -38,6 +46,7 @@ export default function Gallery() {
                 <Card card={cards[0]} />
                 <Card card={cards[1]} />
                 <Card card={cards[2]} />
+                <Card card={cards[3]} />
             </div>
         </div>
     )
