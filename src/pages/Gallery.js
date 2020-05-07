@@ -6,6 +6,8 @@ import weather from '../Pictures/weather-app.png'
 import mosh from '../Pictures/mosh.png'
 import './style.css'
 
+
+
 export default function Gallery() {
 
     const [cards, setCards] = useState([
